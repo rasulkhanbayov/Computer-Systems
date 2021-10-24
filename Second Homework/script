@@ -1,0 +1,50 @@
+#!/bin/sh
+
+# Write a shell script program which adds the odd numbers in odd lines and adds 
+# the even numbers in even lines. Write the result on the standard output! 
+# In each lines there are at least 2 numbers. The filename is given by a parameter. 
+
+if [ $# -eq 1 ]; then
+       filename=$1
+else
+      echo "Give me the filename"
+      read filename
+fi
+
+if [ -f $filename ]; then
+	echo "The file exists "
+else
+        echo "The file is not exist"	
+        exit 1
+fi	
+counter=2
+result=0
+result1=0
+while read line
+do
+    isEvenNo=`expr $counter % 2`
+    if [ $isEvenNo -ne 0 ]
+    then
+         for number in $line
+         do 
+              n=`expr $number % 2`
+              if [ $n -eq 0 ]
+              then
+	      result=`expr $result + $number`
+              fi
+         done
+
+    else
+         for num in $line
+         do
+              n=`expr $num % 2`
+              if [ $n -ne 0 ]
+              then
+	      result1=`expr $result1 + $num`
+              fi
+         done
+    fi
+    counter=`expr $counter + 1`
+done < $filename
+echo "the sum of the numbers in even lines = $result"
+echo "the sum of the numbers in odd lines = $result1"
