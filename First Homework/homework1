@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>HTML Cheat Sheet</title>
+<style type="text/css">
+#main-header{
+text-align:center;
+background-color:black;
+color:white;
+padding:10px;
+}
+</style>
+    </head>
+    <body>
+   <header id="main-header">
+     <h1>Huricanes & Storms</h1>
+</header>
+     <h2>What are Huricanes?</h2>
+<p>
+Hurricanes are large, swirling storms. They produce winds of 119 kilometers per hour <abbr title="mile per hour">(74 mph)</abbr> or higher. That's faster than a cheetah, the fastest animal on land. Winds from a hurricane can damage buildings and trees.
+
+Hurricanes form over warm ocean waters. Sometimes they strike land. When a hurricane reaches land, it pushes a wall of ocean water ashore. This wall of water is called a storm surge. Heavy rain and storm surge from a hurricane can cause flooding.
+
+Once a hurricane forms, weather forecasters predict its path. They also predict how strong it will get. This information helps people get ready for the storm.
+
+There are five types, or categories, of hurricanes. The scale of categories is called the Saffir-Simpson Hurricane Scale. The categories are based on wind speed.
+<ul>
+<li><strong>Category 1:</strong>  Winds <em>119-153 km/hr (74-95 mph)</em> - faster than a cheetah</li>
+<li><strong>Category 2:</strong>  Winds <em>154-177 km/hr (96-110 mph)</em> - as fast or faster than a baseball pitcher's fastball</li>
+<li><strong>Category 3:</strong>  Winds <em>178-208 km/hr (111-129 mph)</em> - similar, or close, to the serving speed of many professional tennis players</li>                     
+<li><strong>Category 4:</strong>  Winds <em>209-251 km/hr (130-156 mph)</em> - faster than the world's fastest rollercoaster</li>
+<li><strong>Category 5:</strong>  Winds <em>more than 252 km/hr (157 mph)</em> - similar, or close, to the speed of some high-speed trains</li>
+</ul>
+
+<a href="hurricane1.jpg">
+<img src="hurricane1.jpg" alt="hurricane1" width="200">
+</a>
+<br>
+<p>The eye of Hurricane Dean is shown as it moved through the Caribbean.</p>
+<a href="hurricane2.jpg">
+<img src="hurricane2.jpg" alt="hurricane2" width="200">
+</a>
+<br>
+<p>Warm water in the Gulf of Mexico and the Caribbean during the late summer months helps to fuel hurricanes.</p>
+
+<h2>What Are the Parts of a Hurricane?</h2>
+<ol>
+<li><strong>Eye</strong>: The eye is the "hole" at the center of the storm. Winds are light in this area. Skies are partly cloudy, and sometimes even clear.</li>
+<li><strong>Eye wall</strong>: The eye wall is a ring of thunderstorms. These storms swirl around the eye. The wall is where winds are strongest and rain is heaviest.</li>
+<li><strong>Rain bands</strong>: Bands of clouds and rain go far out from a hurricane's eye wall. These bands stretch for hundreds of miles. They contain thunderstorms and sometimes tornadoes.</li>
+</ol>
+<h2>What Makes Hurricanes Form?</h2>
+<p>
+Scientists don't know exactly why or how a hurricane forms. But they do know that two main ingredients are needed.
+
+One ingredient is warm water. Warm ocean waters provide the energy a storm needs to become a hurricane. Usually, the surface water temperature must be 26 degrees Celsius (79 degrees Fahrenheit) or higher for a hurricane to form.
+
+The other ingredient is winds that don't change much in speed or direction as they go up in the sky. Winds that change a lot with height can rip storms apart.
+</p>
+<h2>How Are Hurricanes Named?</h2>
+<p>There can be more than one hurricane at a time. This is one reason hurricanes are named. Names make it easier to keep track of and talk about storms.
+
+A storm is given a name if it becomes a tropical storm. That name stays with the storm if it goes on to become a hurricane. (Tropical disturbances and depressions don't have names.)
+
+Each year, tropical storms are named in alphabetical order. The names come from a list of names for that year. There are six lists of names. Lists are reused every six years. If a storm does a lot of damage, its name is sometimes taken off the list. It is then replaced by a new name that starts with the same letter.
+You can see the lists of names <a href= "https://www.nhc.noaa.gov/aboutnames.shtml">here</a>
+</p>
+<p>More About Hurricanes </p>
+<p><a href= "https://spaceplace.nasa.gov/hurricanes/en/l">The Space Place: How Do Hurricanes Form?</a>
+</p>
+<h2>Storms</h2>
+<p>
+Storms are also known as Hurricanes (Atlantic), Tropical Cyclones (South East Asia), Willy Willies (Australia) and Typhoons (Pacific).
+</p>
+<h3>What are Tropical Storms?</h3>
+<p>
+Tropical Storms are areas of extreme low pressure. This means air is rising, causing 'low pressure' on the earth's surface. The maximum sustained surface wind speed (using the U.S. 1-minute average) ranges from 34 knots (39 mph or 63 kph) to 63 knots (73 mph or 118 kph).
+</p>
+<table>
+<thead>
+<tr>
+<th>Scale Number (Category)</th>
+<th>Sustained Winds <abbr title="mile per hour">(MPH)</abbr></th>
+<th>Damage</th>
+<th>Storm Surge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> 1 </td>
+<td> 74-95 </td>
+<td> Minimal: Unanchored mobile homes, vegetation and signs. </td>
+<td> 4-5 feet </td>
+</tr>
+<tr>
+<td> 2 </td>
+<td> 96-110 </td>
+<td> Moderate: All mobile homes, roofs,small crafts, flooding. </td>
+<td> 6-8 feet </td>
+</tr>
+<tr>
+<td> 3 </td>
+<td> 111-130 </td>
+<td> Extensive: Small buildings, low-lying
+roads cut off. </td>
+<td> 9-12 feet </td>
+</tr>
+<tr>
+<td> 4 </td>
+<td> 131-155 </td>
+<td> Extreme: Roofs destroyed, trees down, roads cut off, mobile homes destroyed. Beach homes flooded. </td>
+<td> 13-18 feet </td>
+</tr>
+<tr>
+<td> 5 </td>
+<td> More than 155 </td>
+<td> Catastrophic: Most buildings
+destroyed. Vegetation destroyed. Major roads cut off. Homes flooded. </td>
+<td> Greater than 18 feet </td>
+</tr>
+</tbody>
+</table>
+<h2>How do Tropical Storms occur?</h2>
+<p>
+Tropical Storms start within 8 and 15 Celsius north and south of the equator where surface sea temperatures reach 27 Celsius . The air above the warm sea is heated and rises. This causes low pressure.
+As the air rises it cools then condenses, forming clouds. Air around the weather system rushes in to fill the gap caused by the rising air. The air begins to spiral. This is caused by the spinning movement of the earth.
+
+The weather system generates heat which powers the storm, causing wind speeds to increase. This causes the Tropical Storm to sustain itself. Tropical storms rely on plenty of warm, moist air from the sea - this is why they die out over land.
+</p>
+<br>
+<p>
+<strong>How can we reduce the impact?</strong><br>
+<a href= "https://www.weather.gov/wrn/hurricane-preparedness">The National Hurricane Centre </a> provides advice about how to prepare for a tropical storm.
+</p>
+
+<blockquote cite="http://traversymedia.com">
+</blockquote>
+
+
+<p><cite>Hurricanes & Storm article </cite> by Rasul Khanbayov</p>
+
+</body>
+</html>
+
+
+
