@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "First loop"
+for i in apple banana orange
+do
+	echo $i
+done	
+echo "Second Loop"
+for i in 1 5
+do
+	echo "Hello World!"
+done	
+
+echo "Last part"
+echo "Hello World!"

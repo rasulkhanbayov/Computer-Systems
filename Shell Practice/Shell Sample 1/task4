@@ -1,0 +1,14 @@
+#!/bin/sh
+count=0
+filename=$1
+while read line
+do
+  x=`expr $count % 2`
+  if [ $x -eq 0  ]
+  then 
+     echo $line
+  fi
+  count=`expr $count + 1`
+done < $filename
+
+

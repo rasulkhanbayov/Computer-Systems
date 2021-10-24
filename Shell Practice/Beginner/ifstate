@@ -1,0 +1,9 @@
+#!/bin/sh
+
+read n
+if [ $n -eq 0 ]
+then  
+	echo "The number is divisible to 10"	
+else
+	echo "The number is not divisible to 10"
+fi

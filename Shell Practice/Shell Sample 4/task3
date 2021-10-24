@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# task 3 c
+
+filename=$1
+word=$2
+if [ -f $filename ]
+then
+     echo "The file exists"
+else
+     echo "The file doesnt exist"
+     exit 1
+fi
+while read line
+do
+for i in $line
+do
+   if [ $i = $word ]
+   then
+   echo "$line"
+   fi
+   
+done 
+done < $filename

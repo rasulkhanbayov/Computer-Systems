@@ -1,0 +1,15 @@
+#!/bin/sh
+
+filename=$1
+
+while read line
+do 
+  for i in $line
+  do
+       a=`echo "$i" | wc -c`
+       if [ $a -eq 3 ]
+       then 
+		echo $i
+       fi	
+  done
+done < $filename

@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# write a shell script that expects a filename as a parameter and 
+# writes out the sum of the numbers is one line (for every line)
+# if the parameter is not given ask for it from stdin
+
+if [ $# -eq 1 ]; then
+      filename=$1
+else
+      echo "Give me the file"
+      read filename
+fi
+lineNumber=1
+while read line
+do
+   sumOfActualLine=0
+   for number in $line
+   do 
+	   sumOfActualLine=`expr $sumOfActualLine + $number`
+   done	   
+   echo "The sum of $lineNumber. line is: $sumOfActualLine"
+   lineNumber=`expr $lineNumber + 1`
+done < $filename
+
+while [ $number != "end" ]
+do
+done

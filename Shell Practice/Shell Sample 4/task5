@@ -1,0 +1,12 @@
+#!/bin/sh
+
+
+filename=$1
+z=0	
+a=`cut -f2 -d ' ' $filename`	
+for i in $a
+do	
+z=`expr $z + $i`
+done
+echo $z
+

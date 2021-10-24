@@ -1,0 +1,31 @@
+#!/bin/sh
+bir=$1
+iki=$2
+uc=$3
+if [ $# -ne 3 ]
+then
+read bir
+read iki
+read uc
+fi
+if [ $bir -gt $iki ]
+then
+    temp=$bir
+    bir=$iki
+    iki=$temp
+fi
+
+if [ $bir -gt $uc ]
+then
+	z=$bir
+	bir=$uc
+	uc=$z
+fi
+if [ $iki -gt $uc ] 
+then
+h=$iki
+iki=$uc
+uc=$h
+fi
+echo " $bir, $iki, $uc"
+

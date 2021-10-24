@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# task 3 group a
+bir=$1
+iki=$2
+if [ $1 -gt $2 ]
+then 
+temp=$1
+bir=$2
+iki=$1
+fi
+    for i in `seq $bir $iki`
+    do
+    a=`expr $i \* $i`
+    echo "$a "
+    done
+

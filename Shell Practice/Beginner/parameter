@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# First parameter
+echo "This is the first parameter"
+echo $1
+
+# Second parameter
+echo "Second parameter"
+echo $2
+
+# Numbers of the parameters
+echo "Number of the parameters"
+echo $#
+
+# All of the parameters
+echo "All of the parameters"
+echo $*

@@ -1,0 +1,23 @@
+#!/bin/sh
+num1=$1
+num2=$2
+z=0
+if [ $num1 -gt $num2 ]
+then
+n=$num1
+else 
+n=$num2
+fi
+for i in `seq 1 $n`
+do
+a=`expr $num1 % $i`
+b=`expr $num2 % $i`
+if [ $a -eq 0 -a $b -eq 0 ]
+then
+if [ $i -gt $z ]
+then 
+z=$i
+fi
+fi
+done
+echo "$z"

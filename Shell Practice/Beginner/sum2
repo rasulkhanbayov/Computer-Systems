@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# write a script which adds all the numbers in a file
+# the first parameter is a filename
+# the numbers are separeted by spaces , but they can be in multiple lines
+# if the parameter is not written ask for it
+ 
+if [ $# -eq 1 ]; then
+       filename=$1
+else
+      echo "Give me the filename"
+      read filename
+fi
+
+if [ -f $filename ]; then
+	echo "The file exists "
+else
+        echo "The file is not exist"	
+        exit 1
+fi	
+
+result=0
+for i in `cat $filename`
+do
+	result=`expr $result + $i`
+done
+
+echo "the sum of the numbers = $result
+"

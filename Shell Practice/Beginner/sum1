@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# write a script that expects numbers from the standart input
+# 
+
+result=0 
+
+echo "Give me the first parameter"
+read number
+while [ $number != "end" ];do
+      result=`expr $result + $number`
+      echo "Give me next number or end"
+      read number
+done	
+echo "the sum numbers is $result"

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Write out "Hello World!" text n times. n is the first parameter 
+# Use while loop
+
+i=1
+
+while [ $i -le $1 ]
+do
+	echo "Hello World!($i)"
+	i=`expr $i + 1`
+done
+

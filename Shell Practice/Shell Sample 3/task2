@@ -1,0 +1,21 @@
+#!/bin/sh
+fn=$1
+word=$2
+
+if [ -f $fn ]
+then 
+echo "file exists"
+else
+echo "file does not exist"
+exit 1
+fi
+while read line
+do
+for i in $line
+do
+if [ $i = $word ]
+then
+echo $line
+fi
+done
+done<$fn

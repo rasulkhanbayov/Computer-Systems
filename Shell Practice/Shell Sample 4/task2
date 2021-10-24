@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# task 2 c
+a=$1
+z=3
+while [ $a -ne 0 ]
+do
+  echo -n "$z "
+  z=`expr $z + 4`
+  a=`expr $a - 1`
+done

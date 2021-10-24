@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# This script can execute every command in a given directory with a given parameter
+# first param : Directory
+# second param : The parameter of the scripts
+
+directory=$1
+parameter=$2
+
+for i in `ls $directory`
+do 
+	echo "---------------------------"
+	echo "I am executing $i, with $parameter parameters"
+	$directory/$i $parameter
+	echo "---------------------------"
+done	

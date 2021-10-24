@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# task1
+
+if [ $# -eq 1 ]; then
+    a=$1
+else 
+	echo "Give me number"
+	read a
+fi
+
+b=`expr 5 \* $a`
+c=`expr $b \* $a`
+d=`expr 3 \* $a`
+e=`expr $c + $d`
+f=`expr $e + 1`
+echo $f

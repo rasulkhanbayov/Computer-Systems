@@ -1,0 +1,4 @@
+#!/bin/bash
+PATH="$PATH:/afs/inf.elte.hu/user/g/gg/ggusa3/shell"
+echo "Salam Aleykum!"
+

@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# task 2
+
+new=1
+prev=1
+echo $new
+exit 1
+for i in `seq $1`
+do 
+	echo $new
+	temp=$new
+	new=`expr $new + $prev`
+	prev=$temp
+done

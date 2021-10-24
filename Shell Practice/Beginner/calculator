@@ -1,0 +1,19 @@
+#!/bin/sh
+
+sum = $1
+
+echo "Addition"
+expr $1 + $2
+
+echo "Multiplication"
+expr $1 \* $2
+
+echo "Quotient"
+expr $1 / $2
+
+echo "Difference"
+expr $1 - $2
+
+echo "Reminder"
+expr $1 % $2
+ 

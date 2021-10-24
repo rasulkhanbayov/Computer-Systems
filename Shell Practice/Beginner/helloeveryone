@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# This script writes out a hello message for every logged in user
+
+for i in `who | cut -d " " -f 1`
+do 
+	echo "hello ($i)"
+done

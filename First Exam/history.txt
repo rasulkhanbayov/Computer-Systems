@@ -1,0 +1,94 @@
+    2  pwd
+    3  ls
+    4  cd public
+    5  ls
+    6  rm unixexam
+    7  rm -r unixexam
+    8  ls
+    9  mkdir unixexam
+   10  ls
+   11  cd unixexam
+   12  vim name.txt
+   13  ls
+   14  cp name.dat
+   15  cp name.txt name.dat
+   16  ls
+   17  rm name.txt
+   18  ls
+   19  vim name.dat
+   20  ls -l -o
+   21  man ls
+   22  ls -l -g
+   23  getent passwd users.txt
+   24  ls
+   25  man passwd
+   26  man getent passwd
+   27  getent passwd setpwent users.txt
+   28  ls
+   29  man chnod
+   30  man chmod
+   31  vim permission.txt
+   32  ls
+   33  ls
+   34  ls -la
+   35  rm er Commands
+   36  rm er Commands   CHMOD
+   37  ls
+   38  ls
+   39  mv name.dat public
+   40  ls
+   41  mv public name.dat
+   42  ls
+   43  vim permission.txt
+   44  ls
+   45  rm manual page documents the GNU version of chmod. chmod changes the
+   46  ls
+   47  ls -la
+   48  man rm
+   49  rm -d -dir
+   50  ls
+   51  man rm
+   52  rm -d --dir
+   53  rm -d, --dir
+   54  rm -dir
+   55  rm -d
+   56  ls
+   57  mkdir copy
+   58  ls
+   59  cp name.dat copy
+   60  ls
+   61  cd copy
+   62  ls
+   63  cd ..
+   64  cp permission.txt copy
+   65  ls
+   66  cd copy
+   67  ls
+   68  cd ..
+   69  ls
+   70  ln -s name.dat softlink.txt
+   71  ls
+   72  cp softlink.txt copy
+   73  ls
+   74  cd copy
+   75  ls
+   76  cd ..
+   77  ls -l
+   78  chmod g+x name.dat
+   79  ls
+   80  ls -l
+   81  chmod u+x name.dat
+   82  ls -l
+   83  chmod g-x name.dat
+   84  ls -l
+   85  chmod o-r name.dat
+   86  ls -l
+   87  ls
+   88  cd copy
+   89  ls
+   90  cd ..
+   91  ls
+   92  history history.txt
+   93  history < history.txt
+   94  history<history.txt
+   95  history > history.txt

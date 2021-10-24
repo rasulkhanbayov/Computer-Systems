@@ -1,0 +1,20 @@
+#!/bin/sh
+
+case $1 in
+        -d)
+              date
+              ;;
+        -d)
+              echo "Second date"
+              ;;
+        -p)
+              pwd
+              ;;
+        -w)
+              who
+              ;;
+        *)
+              echo "ERROR : No such option yet"
+              ;;
+esac
+echo "the execution continues"
